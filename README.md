@@ -7,6 +7,7 @@ Based on challenge in <a href="https://www.frontendmentor.io/challenges/recipe-p
 
 <img src="./assets/images/image1.PNG" alt="Finished Project Desktop">
 <img src="./assets/images/image2.PNG" alt="Finished Project Open FAQ">
+
 ## Mobile View
 
 <img src="./assets/images/image3.PNG" alt="Finished Project Mobile">
