@@ -1,6 +1,6 @@
 # Front end Mentor Challenge
 
-Based on challenge in <a href="https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm">Here</a>
+Based on challenge in <a href="https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz">Here</a>
 
 
 ## Finished project
