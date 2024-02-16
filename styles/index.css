@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --var-white: hsl(0, 0%, 100%);
+    --var-light-pink: hsl(275, 100%, 97%);
+    --var-grayish-purple: hsl(292, 16%, 49%);
+    --var-dark-purple: hsl(292, 42%, 14%);
+    --var-light-gray: hsl(0, 0%, 90%);
+    --var-bg-hover-list: hsl(0, 0%, 96%);
+}
+
+body{
+    font-family: "Work Sans", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: no-repeat url('/assets/images/background-pattern-desktop.svg');
+    background-color: var(--var-light-pink);
+    background-size: 100vw;
+}
+
+.container{
+    background-color: var(--var-white);
+    border-radius: 20px;
+    max-width: 620px;
+
+    padding: 2.5rem;
+
+}
+
+.container .title {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+.container .title > h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 20px;
+    color: var(--var-dark-purple);
+}
+
+.container ul{ 
+    list-style-type: none;
+}
+
+.container ul li { 
+    padding: 10px;
+    transition: .4s;
+}
+
+.container ul li:not(:last-child){ 
+    border-bottom: 1px solid var(--var-light-gray);
+} 
+
+.container ul li:hover {
+    background-color:  var(--var-bg-hover-list);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.container ul .faq-item-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.container ul .faq-item-title h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--var-dark-purple);
+}
+
+.container ul li .faq-content-text{
+    color: var(--var-grayish-purple);
+    line-height: 1.5;
+    display: none;
+    font-weight: 400px;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.container ul li .logo{
+    width: 2.5rem;
+}
+
+.container ul li .faq-active {
+    display: block;
+}
